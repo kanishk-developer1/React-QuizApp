@@ -8,7 +8,7 @@ import { getQuizQuestionArray, getQuizState, removeSessionQuizData, setSessionQu
 
 const App = () => {
 
-  const quizTiming = 25; let quiz1Interval = useRef(null); let quiz2Interval = useRef(null);
+  const quizTiming = 20; let quiz1Interval = useRef(null); let quiz2Interval = useRef(null);
   const oprtrs = {
     '+': false,
     '-': false,
